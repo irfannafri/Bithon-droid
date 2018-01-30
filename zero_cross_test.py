@@ -1,6 +1,6 @@
 import wfdb
 import numpy as np
-import pyscript.zero_cross as zcross
+import zero_cross as zcross
 import matplotlib.pyplot as plt
 import time
 import csv
@@ -126,7 +126,7 @@ total_t = []
 
 import json
 
-with open(directory + "/1.json") as json_file:
+with open(directory + "/100 a.json") as json_file:
     data = json.load(json_file)
 
 print(len(data))

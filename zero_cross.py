@@ -1,7 +1,7 @@
 import numpy as np
 from scipy.signal import butter, lfilter, firwin
 from scipy.signal import freqz
-import pyscript.tools as st
+import tools as st
 import time
 
 
